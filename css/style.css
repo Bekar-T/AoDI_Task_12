@@ -127,8 +127,10 @@ section{
 
 #contact_div_inner_1{
     display: flex;
+    width: 100%;
     column-gap: 24px;
     margin-bottom: 24px;
+    justify-content: space-between;
 }
 
 .text_box{
@@ -138,6 +140,9 @@ section{
     border: 1px solid #B052B5;
     background-color: transparent;
     padding-left: 22px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
 }
 
 span{
@@ -179,3 +184,5 @@ textarea{
     font-size: 16px;
     font-weight: 700;
 }
+
+/* როგორც ეტყობა, ბოლომდე ვერ მოვასწარი დამთავრება. არ გამომრჩენია ინსტრუქციები. */
