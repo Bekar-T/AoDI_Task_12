@@ -1,0 +1,90 @@
+header{
+    width: 100%;
+    max-width: 1440px;
+    margin: auto;
+    height: 116px;
+    background-color: #2E0230;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 34px 5%;
+}
+
+#search_box{
+    width: 40%;
+    display: flex;
+    border: 1px solid rgba(176, 82, 181, 0.79);
+    box-shadow: 0px -2px 5px 0px #F1ACEE;
+    border-radius: 8px;
+    overflow: hidden;
+}
+#search_box > input{
+    width: 100%;
+    padding-left: 16px;
+    background-color: transparent;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    border: none;
+    border-radius: 0;
+}
+
+#search_box > input::placeholder{
+    color: rgba(158, 141, 158, 0.71);
+    font-family: Inter;
+    font-size: 16px;
+}
+
+#search_box > button{
+    width: 48px;
+    height: 48px;
+    background: #B052B5;
+    border: none;
+    border-radius: 0;
+}
+
+#search_box > button::before{
+    content: "\f002";
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    color: #FFF;
+}
+
+header > div{
+    display: flex;
+    column-gap: 8px;
+}
+
+#log_in{
+    width: 84px;
+    height: 42px;
+    border-radius: 8px;
+    border: 1px solid #F30AEA;
+    background-color: transparent;
+    color: #FFF;
+}
+
+#cart{
+    width: 42px;
+    height: 42px;
+    border: none;
+    border-radius: 8px;
+    background: #F30AEA;
+}
+
+#cart::before{
+    content: "\f07a";
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    color: #FFF;
+}
+
+section{
+    width: 100%;
+    max-width: 1440px;
+    margin: auto;
+    height: 1000px;
+    background-image: url("../images/cover.jpeg");
+    background-position: center;
+    background-size: cover;
+}
