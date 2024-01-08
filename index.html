@@ -23,20 +23,32 @@
     <section>
         <form id="contact_box" name="contact_us">
             <h2>CONTACT US</h2>
-            <div id="contact_div_1">
-                <input class="text_box" type="text" placeholder="Name">
-                <input class="text_box" type="text" placeholder="Email">
-            </div>
-            <div id="contact_div_2">
+            <div id="contact_div_outer">
+                <div id="contact_div_inner_1">
+                    <input class="text_box" type="text" placeholder="Name">
+                    <input class="text_box" type="text" placeholder="Email">
+                </div>
                 <span>I have a delivery question about my order</span>
-                <input type="radio">
-                <input type="radio">
-                <input type="radio">
-                <input type="radio">
+                <div id="contact_div_inner_2">
+                    <label for="radio_1">
+                        <input type="radio" id="radio_1">I did not receive my order
+                    </label>
+                    <label for="radio_1">
+                        <input type="radio" id="radio_1">My order is incorrect or arrived damaged
+                    </label>
+                    <label for="radio_1">
+                        <input type="radio" id="radio_1">Cancel my order
+                    </label>
+                    <label for="radio_1">
+                        <input type="radio" id="radio_1">Change my shipping address
+                    </label>
+                </div>
                 <span>Please provide more details below.</span>
-                <textarea name="" id="" cols="30" rows="10"></textarea>
-                <input type="checkbox">
-                <button>SEND</button>
+                <textarea name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
+                <label for="checkbox_1" id="checkbox_label">
+                    <input type="checkbox" id="checkbox_1">I want to receive the newsletter 
+                </label>
+                <button id="bottom_button">SEND</button>
             </div>
         </form>
     </section>    
