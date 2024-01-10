@@ -1,0 +1,9 @@
+@media (max-width: 834px) {
+    /* section 2 */
+
+    #section_2 {
+        padding: 32px;
+        row-gap: 40px;
+        flex-direction: column;
+    }
+}
